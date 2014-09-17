@@ -1,6 +1,6 @@
 {
   "name": "esteves",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "forward proxy that allows for custom content injection",
   "tags": [
     "http-proxy",
