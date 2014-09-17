@@ -1,0 +1,34 @@
+{
+  "name": "forward-proxy-injector",
+  "version": "0.0.1",
+  "description": "forward proxy that allows for custom content injection",
+  "tags": [
+    "http-proxy",
+    "trumpet",
+    "middleware",
+    "forward proxy",
+    "content injection"
+  ],
+  "author": {
+    "name": "Miguel Ping",
+    "email": "miguel.ping at gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mping/forward-proxy-injector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mping/forward-proxy-injector/issues"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "http-proxy": "~1.4.3",
+    "trumpet": "~1.6.6",
+    "lodash": "~2.4.1"
+  },
+  "scripts": {
+    "example": "node examples/misc-interceptor.js",
+    "jshint": "jshint index.js lib/*.js"
+  },
+  "license": "MIT/X11"
+}
