@@ -1,5 +1,5 @@
 {
-  "name": "forward-proxy-injector",
+  "name": "esteves",
   "version": "0.0.1",
   "description": "forward proxy that allows for custom content injection",
   "tags": [
@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mping/forward-proxy-injector.git"
+    "url": "git://github.com/mping/esteves.git"
   },
   "bugs": {
-    "url": "https://github.com/mping/forward-proxy-injector/issues"
+    "url": "https://github.com/mping/esteves/issues"
   },
   "main": "index.js",
   "dependencies": {
@@ -27,8 +27,8 @@
     "lodash": "~2.4.1"
   },
   "scripts": {
-    "example": "node examples/misc-interceptor.js",
+    "example": "node examples/example-interceptor.js",
     "jshint": "jshint index.js lib/*.js"
   },
-  "license": "MIT/X11"
+  "license": "MIT"
 }
