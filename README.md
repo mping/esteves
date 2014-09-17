@@ -37,7 +37,7 @@ All my node projects will have a completely unrelated name, and I will further a
 ### TODO
 
  * Support external config
- * Support regexes in uri config
+ * ~~Support regexes in uri definition~~
  * Support HTTPS
 
 #### Example

@@ -15,6 +15,9 @@ var proxy = new httpProxy.createProxyServer();
 var mware = new intercept.createMiddleware(proxy, {userAgent: 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
 												   acceptEncoding: false});
 
+mware.logUri(/http:\/\/wa.sl.pt\/ajs\.php\?zoneid=1&(.*)/, function(uri) {
+	console.log('logging', uri);
+});
 
 mware.replaceSelection('http://www.sapo.pt/', 'h1#logo', function(cb){
 	cb(null, 'My Sapo');
